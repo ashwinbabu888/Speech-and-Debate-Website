@@ -39,5 +39,7 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 10vw;
+    margin-left: 3vw;
+    margin-right: 7.5vw;
+    padding-top: 2vh;
 }
