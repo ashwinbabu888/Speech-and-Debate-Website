@@ -14,6 +14,16 @@ header {
     background: #002654;
 }
 
+header::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
 .logo {
     float: left;
+}
+
+nav {
+    float: right;
 }
