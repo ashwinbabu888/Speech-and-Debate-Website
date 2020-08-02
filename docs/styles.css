@@ -25,11 +25,11 @@ header::after {
 }
 
 .logo {
-    float: left;
+    text-align: left;
 }
 
 nav {
-    float: right;
+    text-align: right;
 }
 
 nav ul {
