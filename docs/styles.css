@@ -14,6 +14,7 @@
 // nav bar/header background
 header {
     background: #002654;
+    position: fixed;
 }
 
 // prevents container from shrinking after nav bar elements float
