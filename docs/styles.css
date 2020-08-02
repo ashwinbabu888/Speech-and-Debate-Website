@@ -5,15 +5,18 @@
     background-color: #026f4d;
 }
 
+// nav bar container
 .container {
     width: 99vw;
     margin: 0 auto;
 }
 
+// nav bar/header background
 header {
     background: #002654;
 }
 
+// prevents container from shrinking after nav bar elements float
 header::after {
     content: '';
     display: table;
