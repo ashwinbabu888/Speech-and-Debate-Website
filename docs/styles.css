@@ -11,5 +11,9 @@
 }
 
 header {
-    background: #005654;
+    background: #002654;
+}
+
+.logo {
+    float: left;
 }
