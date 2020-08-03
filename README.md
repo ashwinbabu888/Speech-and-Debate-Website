@@ -11,4 +11,4 @@ The official website for Del Norte High School's Speech and Debate program.
 - Web Development and Hosting - Ashwin Babu
 
 ### The Design
-![Site Design](https://ashwinbabu888.github.com/img/site-design.PNG)
+![Site Design](https://ashwinbabu888.github.com/DNHS-Speech-and-Debate-Website/img/site-design.PNG)
