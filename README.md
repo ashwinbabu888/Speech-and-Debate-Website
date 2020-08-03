@@ -1,5 +1,5 @@
 # DNHS Speech and Debate Website
-The official website for Del Norte High School's Speech and Debate program.
+The [official website](https://ashwinbabu888.github.io/Speech-and-Debate-Website/) for Del Norte High School's Speech and Debate program.
 
 ### Tools Used
 - HTML 5 / CSS
