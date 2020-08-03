@@ -41,17 +41,25 @@ nav ul {
 
 nav li {
     display: inline-block;
-    margin-left: 3vw;
-    margin-right: 8vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
 }
 
 nav ul li a {
-    color: #fffcf6;
+    font-family: verdana;
+    font-weight: 500;
+    font-style: normal;
+    letter-spacing: 0.05vw;
+    font-smooth: 2em;
+    font-size: 13px;
+    color: #fff;
     text-decoration: none;
     text-transform: uppercase;
 }
 
-
+nav a:hover {
+    color: #959695;
+}
 
 
 
