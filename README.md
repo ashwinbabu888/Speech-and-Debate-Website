@@ -6,6 +6,9 @@ The official website for Del Norte High School's Speech and Debate program.
 - GitHub Pages (for hosting)
 - Git Bash & PyCharm's built-in features for Version Control
 
-### Process
+### The Process
 - Site Design and Pre-Development Process - Ashwin Babu and Arjun Suri (@arjuns30)
 - Web Development and Hosting - Ashwin Babu
+
+### The Design
+![Site Design](https://ashwinbabu888.github.com/img/site-design.PNG)
