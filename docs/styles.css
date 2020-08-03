@@ -27,6 +27,7 @@ header::after {
 
 .logo {
     text-align: left;
+    width: 100px;
 }
 
 nav {
@@ -43,11 +44,13 @@ nav li {
     display: inline-block;
     margin-left: 2vw;
     margin-right: 2vw;
+
+    position: relative;
 }
 
 nav ul li a {
-    font-family: verdana;
-    font-weight: 500;
+    font-family: 'Work Sans', sans-serif;
+	font-weight: 500;
     font-style: normal;
     letter-spacing: 0.05vw;
     font-smooth: 2em;
@@ -58,11 +61,26 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: #959695;
+    color: #b6b8b6;
 }
 
+nav a::before {
+    content: '';
+    display: block;
+    height: 0.35vh;
+    width: 100%;
+    background-color: #fff;
 
+    position: absolute;
+    top: -2vh;
+    width: 0%;
 
+    transition: all ease-in-out 250ms;
+}
+
+nav a:hover::before {
+    width: 100%;
+}
 
 
 
