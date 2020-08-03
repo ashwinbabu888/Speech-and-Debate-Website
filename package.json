@@ -1,0 +1,23 @@
+{
+  "name": "DNHS-Speech-and-Debate-Website",
+  "version": "1.0.0",
+  "description": "The official website for Del Norte High School's Speech and Debate program.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ashwinbabu888/DNHS-Speech-and-Debate-Website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ashwinbabu888/DNHS-Speech-and-Debate-Website/issues"
+  },
+  "homepage": "https://github.com/ashwinbabu888/DNHS-Speech-and-Debate-Website#readme"
+}
