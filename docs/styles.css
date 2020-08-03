@@ -46,7 +46,9 @@ nav li {
 }
 
 nav ul li a {
-    color: #fffcf6
+    color: #fffcf6;
+    text-decoration: none;
+
 }
 
 
