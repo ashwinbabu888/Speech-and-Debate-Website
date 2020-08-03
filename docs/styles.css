@@ -48,7 +48,7 @@ nav li {
 nav ul li a {
     color: #fffcf6;
     text-decoration: none;
-
+    text-transform: uppercase;
 }
 
 
