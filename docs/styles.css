@@ -13,8 +13,10 @@
 
 // nav bar/header background
 header {
+    width: 99vw; height: 4vh;
     background: #002654;
     position: fixed;
+    top: 2.5vh;
 }
 
 // prevents container from shrinking after nav bar elements float
