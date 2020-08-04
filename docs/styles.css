@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+body{
+    width: 100%;
+    overflow: hidden;
+}
+
 #green-strip{
     width: 100%; height: 2.5vh;
     border-style: solid;
@@ -12,41 +17,41 @@
 }
 
 // nav bar container
-.container {
+.container{
     width: 100%;
     margin: 0 auto;
 }
 
 // nav bar background
-// header {
+// header{
 //    width: 100%; height: 10vh;
 //    background: #002654;
 //    top: 2.5vh;
 //}
 
 // prevents container from shrinking after nav bar elements float
-header::after {
+header::after{
     content: '';
     display: table;
     clear: both;
 }
 
-.logo {
+.logo{
     text-align: left;
     position: absolute;
 }
 
-nav {
+nav{
     text-align: right;
 }
 
-nav ul {
+nav ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-nav li {
+nav li{
     top: 2vh;
     display: inline-block;
     margin-left: 2vw;
@@ -55,7 +60,7 @@ nav li {
     position: relative;
 }
 
-nav ul li a {
+nav ul li a{
     font-family: 'Monserrato', sans-serif;
 	font-weight: 500;
     font-style: normal;
@@ -67,11 +72,11 @@ nav ul li a {
     text-transform: uppercase;
 }
 
-nav a:hover {
+nav a:hover{
     color: #b6b8b6;
 }
 
-nav a::before {
+nav a::before{
     content: '';
     display: block;
     height: 0.35vh;
@@ -85,11 +90,13 @@ nav a::before {
     transition: all ease-in-out 250ms;
 }
 
-nav a:hover::before {
+nav a:hover::before{
     width: 100%;
 }
 
-
+.content-wrapper img{
+    width: 100%
+}
 
 
 
