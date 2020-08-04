@@ -61,7 +61,7 @@ nav li{
 }
 
 nav ul li a{
-    font-family: 'Monserrato', sans-serif;
+    font-family: 'Montserrat', sans-serif;
 	font-weight: 500;
     font-style: normal;
     letter-spacing: 0.05vw;
@@ -98,9 +98,18 @@ nav a:hover::before{
     width: 100%
 }
 
+.text-wrapper{
+    width: 100%;
+    position: relative;
+    margin-top: -40%;
+}
 
-
-
+.text-wrapper h1{
+    text-align: center;
+    color: #fff;
+    font-size: 10vw;
+    font-family:
+}
 
 
 
