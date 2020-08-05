@@ -94,22 +94,44 @@ nav a:hover::before{
 }
 
 .img-container{
-    background: #000 url(img/dnhs-img.png);
+    background: #000 url(img/dnhs-bright.jpg);
     color: #fff;
     height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-size: 100% 130%;
+    position: relative;
 }
+
+.color-overlay{
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .6;
+    position: absolute;
+}
+
+span{
+    z-index: 3;
+    align-items: center;
+}
+
 h1{
     font-family: adobe-garamond-pro, serif;
-    font-weight: 600;
+    font-weight: 400;
     font-style: normal;
     font-size: 3vw;
+    margin-left: 3vw;
 }
 
-
+h3{
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.5vw;
+}
 
 
 
