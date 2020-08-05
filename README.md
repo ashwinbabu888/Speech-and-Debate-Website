@@ -11,4 +11,4 @@ The [official website](https://ashwinbabu888.github.io/Speech-and-Debate-Website
 - Web Development and Hosting - **Ashwin Babu**
 
 ### The Design
-![Site Design](img/site-design.PNG)
+![Site Design](docs/img/site-design.PNG)
