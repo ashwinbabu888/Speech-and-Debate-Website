@@ -161,3 +161,27 @@ h3{
     font-family: 'IBM Plex Sans', sans-serif;
     margin-top: 2.5vh;
 }
+
+.section-3-container{
+    height: 100vh;
+    background: #fff;
+}
+
+.heading-section-heading-title{
+    font-size: 2vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+}
+
+.heading-section-subheading-subtitle{
+    font-size: 0.9vw;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    word-wrap: break-word;
+    width: 55vw;
+    margin-left: 23vw;
+}
+
+
