@@ -265,9 +265,45 @@ hr{
     height: 30vh;
 }
 
+#black-strip-2{
+    width: 100%; height: 27vh;
+    border-style: solid;
+    border-color: #000;
+    background-color: #000;
+    text-align: center;
+}
 
+.benefit-wrapper{
+    width: 20vw;
+    margin-top: 2vh;
+    margin-left: 10vw;
+}
 
+.benefit-wrapper-2{
+    width: 20vw;
+    margin-top: -20vh;
+    margin-left: 39vw;
+}
 
+.benefit-wrapper-3{
+    width: 22vw;
+    margin-top: -20.2vh;
+    margin-left: 68vw;
+}
+
+.benefit-txt{
+    font-size: 3.5vh;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 1vh;
+}
+
+.benefit-txt-2{
+    font-size: 2vh;
+    color: #fff;
+    font-family: 'IBM Plex Sans', sans-serif;
+    margin-top: 2vh;
+}
 
 
 
