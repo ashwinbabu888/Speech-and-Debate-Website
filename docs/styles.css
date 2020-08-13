@@ -201,7 +201,7 @@ hr{
 }
 
 .section-5-container{
-    height: 80vh;
+    height: 55vh;
     background: #fff;
     align-items: center;
     justify-content: center;
@@ -258,6 +258,11 @@ hr{
     margin-right: 6vw;
     margin-left: 2vw;
     text-decoration: none;
+}
+
+.team-wrapper{
+    background: #fff;
+    height: 30vh;
 }
 
 
