@@ -306,7 +306,7 @@ hr{
 }
 
 .section-8-container{
-    height: 10vh;
+    height: 6vh;
     color: #fff;
 }
 
@@ -316,7 +316,7 @@ hr{
 
 #slider {
    margin: 0 auto;
-   width: 800px;
+   width: 41.77vw;
    max-width: 100%;
    text-align: center;
 }
@@ -331,8 +331,8 @@ hr{
 }
 
 #slides {
-   padding: 10px;
-   border: 3px solid #ccc;
+   padding: 0.522vw;
+   border: 0.1566vw solid #ccc;
    background: #fff;
    position: relative;
    z-index: 1;
@@ -363,7 +363,7 @@ hr{
    transition: margin-left 500ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
    width: 400%;
    line-height: 0;
-   height: 300px;
+   height: 15.66vw;
 }
 
 #slides .slide {
@@ -393,9 +393,9 @@ hr{
 }
 
 #controls {
-   margin: -180px 0 0 0;
+   margin: -9.39825vw 0 0 0;
    width: 100%;
-   height: 50px;
+   height: 2.6106vw;
    z-index: 3;
    position: relative;
 }
@@ -403,8 +403,8 @@ hr{
 #controls label {
    transition: opacity 0.2s ease-out;
    display: none;
-   width: 50px;
-   height: 50px;
+   width: 2.6106vw;
+   height: 2.6106vw;
    opacity: .4;
 }
 
@@ -418,7 +418,7 @@ hr{
 #slide4:checked ~ #controls label:nth-child(1) {
    background: url(https://image.flaticon.com/icons/svg/130/130884.svg) no-repeat;
    float:right;
-   margin: 0 -50px 0 0;
+   margin: 0 -2.6106vw 0 0;
    display: block;
 }
 
@@ -428,22 +428,22 @@ hr{
 #slide4:checked ~ #controls label:nth-last-child(2) {
    background: url(https://image.flaticon.com/icons/svg/130/130882.svg) no-repeat;
    float:left;
-   margin: 0 0 0 -50px;
+   margin: 0 0 0 -2.6106vw;
    display: block;
 }
 
 #bullets {
-   margin: 150px 0 0;
+   margin: 7.8319vw 0 0;
    text-align: center;
 }
 
 #bullets label {
    display: inline-block;
-   width: 10px;
-   height: 10px;
+   width: 0.5221vw;
+   height: 0.5221vw;
    border-radius:100%;
    background: #ccc;
-   margin: 0 10px;
+   margin: 0 0.5221vw;
 }
 
 #slide1:checked ~ #bullets label:nth-child(1),
@@ -465,7 +465,7 @@ hr{
       margin: 0;
    }
    #slides {
-      max-width: calc(100% - 140px);
+      max-width: calc(100% - 7.30975vw);
       margin: 0 auto;
    }
 }
