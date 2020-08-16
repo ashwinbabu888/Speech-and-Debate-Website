@@ -95,6 +95,20 @@ nav a:hover::before{
     width: 100%;
 }
 
+.title-container{
+    height: 7vh;
+    background: linear-gradient(#002654, #026f4d)
+}
+
+.title-container h3.title{
+    font-size: 2.5vw;
+    font-family: adobe-garamond-pro, serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    color: #fff;
+}
+
 .event-container{
     font-family: "Roboto", sans-serif;
     max-width: 31.2vw;
