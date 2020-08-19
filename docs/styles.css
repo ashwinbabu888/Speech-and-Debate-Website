@@ -38,7 +38,9 @@ header::after{
 
 .logo{
     text-align: left;
-    position: absolute;`
+    position: absolute;
+    width: 17vw;
+    height: 6vh;
 }
 
 nav{
@@ -123,7 +125,7 @@ h1{
     font-family: adobe-garamond-pro, serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 4vw;
+    font-size: 78px;
     margin-left: -1vw;
 }
 
@@ -131,7 +133,7 @@ h3{
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 400;
     font-style: normal;
-    font-size: 1.3vw;
+    font-size: 25px;
 }
 
 .btn-white{
