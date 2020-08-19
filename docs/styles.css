@@ -274,12 +274,12 @@ h3{
 }
 
 .section-3-container{
-    height: 18vh;
+    height: 200px;
     background: #fff;
 }
 
 .heading-section-heading-title{
-    font-size: 2vw;
+    font-size: 40px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     margin-top: 5vh;
@@ -287,12 +287,28 @@ h3{
 }
 
 .heading-section-subheading-subtitle{
-    font-size: 0.9vw;
+    font-size: 18px;
     font-family: 'Roboto', sans-serif;
     text-align: center;
     word-wrap: break-word;
     width: 55vw;
     margin-left: 23vw;
+}
+
+@media screen and (max-width: 1000px){
+    .section-3-container{
+        height: 170px;
+    }
+
+    .heading-section-heading-title{
+        font-size: 25px;
+    }
+
+    .heading-section-subheading-subtitle{
+        font-size: 14px;
+        width: 80vw;
+        margin-left: 10vw;
+    }
 }
 
 .section-4-container{
@@ -301,8 +317,8 @@ h3{
 }
 
 hr{
-    width: 3vw;
-    height: 0.2vh;
+    width: 60px;
+    height: 1px;
     background-color: #737373;
     border: none;
     margin-left: auto;
