@@ -152,6 +152,40 @@ nav a:hover::before{
     }
 }
 
+@media screen and (max-width: 700px){
+    body{
+        overflow-x: hidden;
+    }
+
+    .logo{
+        display: hidden;
+    }
+
+    .nav-links{
+        position: absolute;
+        right: 0px;
+        height: 70vh;
+        margin-top: 8vh;
+        background-color: #002654;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 25%;
+        z-index: 10;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in;
+    }
+
+    nav ul li{
+        margin-bottom: 8vh;
+        opacity: 0;
+    }
+
+    .burger{
+        display: block;
+    }
+}
+
 .toggle .line1{
     transform: rotate(-45deg) translate(-5px, 6px);
 }
