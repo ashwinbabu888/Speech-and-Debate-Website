@@ -22,11 +22,6 @@ body{
     background-color: #026f4d;
 }
 
-.container{
-    width: 100%;
-    margin: 0 auto;
-}
-
 header{
     z-index: 10;
 }
@@ -109,6 +104,7 @@ nav a:hover::before{
     height: 3px;
     background-color: #fff;
     margin: 5px;
+    transition: all 0.3s ease;
 }
 
 @media screen and (max-width: 1000px){
@@ -143,6 +139,29 @@ nav a:hover::before{
 
 .nav-active{
     transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+.toggle .line1{
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .line2{
+    opacity: 0;
+}
+
+.toggle .line3{
+    transform: rotate(45deg) translate(-5px, -6px);
 }
 
 .img-container{
