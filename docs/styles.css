@@ -248,7 +248,8 @@ h3{
 }
 
 #black-strip{
-    width: 100%; height: 15vh;
+    width: 100%;
+    height: 160px;
     border-style: solid;
     border-color: #000;
     background-color: #000;
@@ -256,10 +257,20 @@ h3{
 }
 
 .covid-update{
-    font-size: 1vw;
+    font-size: 20px;
     color: white;
     font-family: 'IBM Plex Sans', sans-serif;
-    margin-top: 2.5vh;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1000px){
+    #black-strip{
+        height: 130px;
+    }
+
+    .covid-update{
+        font-size: 15px;
+    }
 }
 
 .section-3-container{
