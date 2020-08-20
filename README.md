@@ -2,7 +2,7 @@
 The [official website](https://ashwinbabu888.github.io/Speech-and-Debate-Website/) for Del Norte High School's Speech and Debate program.
 
 ### Tools Used
-- **HTML 5/CSS**
+- **HTML 5/CSS/JavaScript**
 - **GitHub/GitHub Pages** (for hosting & storing code)
 - **Git Bash & PyCharm's built-in features** (for Version Control)
 
