@@ -297,6 +297,35 @@ slider > *{
     overflow: hidden;
 }
 
+@media screen and (max-width: 1000px){
+    .sec-3-wrapper{
+        height: 20vh;
+    }
+
+    slider{
+        height: 20vh;
+    }
+
+    slider > *{
+        height: 20vh;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .sec-3-wrapper{
+        height: 10vh;
+    }
+
+    slider{
+        height: 10vh;
+    }
+
+    slider > *{
+        height: 10vh;
+    }
+}
+
+
 slide:nth-child(1){
     left: 0%;
     animation-delay: -1s;
@@ -411,7 +440,6 @@ hr{
     margin-left: 460px;
 }
 
-
 #img-2-2{
     margin-left: 30px;
 }
@@ -517,6 +545,12 @@ hr{
 
     .img-2{
         height: 200px;
+    }
+}
+
+@media screen and (max-width: 750px){
+    #img-2-2{
+        margin-left: 0px;
     }
 }
 
