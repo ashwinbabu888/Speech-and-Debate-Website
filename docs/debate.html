@@ -43,6 +43,99 @@
         </div>
 
         <!-- SECTION 2: EVENTS -->
+        <div class="sec-2-wrapper">
+            <h3 class="title-type">Debate Events</h3>
+            <div class="box">
+                <div class="imgBx">
+                    <iframe width="560" height="250" src="https://www.youtube.com/embed/MUnyLbeu7qU" frameborder="0" class="vid"
+                            style="float: left;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="content">
+                    <h2>Public Forum</h2>
+                    <p>Public Forum is a prepared debate event in which you read a structured argument case and give 3 more
+                        speeches where you refute your opponents' arguments while defending your own. There are 2 competitors
+                        per team and they each read 2 speeches per round.</p>
+                </div>
+            </div>
+            <div class="box" style="margin-top: 400px;">
+                <div class="imgBx">
+                    <iframe width="560" height="250" src="https://www.youtube.com/embed/iVAontOli8Y" frameborder="0" class="vid"
+                            style="float: left;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="content">
+                    <h2>Parliamentary</h2>
+                    <p>Parliamentary is a spontaneous event similar to Public Forum in which you create a case on the
+                        spot with limited time. You must read it, refute your opponents' arguments, and defend your own.
+                        Also like in Public Forum, there are 2 competitors per team that each take turns reading
+                        speeches.</p>
+                </div>
+            </div>
+            <div class="box" style="margin-top: 800px;">
+                <div class="imgBx">
+                    <iframe width="560" height="250" src="https://www.youtube.com/embed/09xIOUrnzX8" frameborder="0" class="vid"
+                            style="float: left;" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                </div>
+                <div class="content">
+                    <h2>Lincoln-Douglas</h2>
+                    <p>Lincoln-Douglas is a prepared debate event in which you read a structured argument case and must
+                        refute your opponents' arguments while defending your own. Unlike the other events, the content
+                        of Lincoln-Douglas is focused on morality and philosophy as opposed to evidence-based debate.
+                        Additionally, this is a single-competitor event.</p>
+                </div>
+            </div>
+
+            <h3 class="title-type" style="margin-top: 1300px;">Speech Events</h3>
+            <button class="accordion">Original</button>
+            <div class="panel">
+                <p>Original Oratory: A speech event in which a student chooses a topic and delivers a speech
+                about it. Focused on argumentative reasoning with logic, rhetoric, and evidence.</p>
+                <p>Expository: A speech event in which a student creates as original speech that describes, clarifies,
+                or illustrates an object, idea, concept, or process. Focused on research and information.</p>
+            </div>
+
+            <button class="accordion">Interpretive</button>
+            <div class="panel">
+                <p>Dramatic Interpretation: A speech event in which a student recreates a piece of literature without
+                    props or costumes. It focuses on character development, depth, and emotion.</p>
+                <p>Humorous Interpretation: A speech event in which a student delivers a section of a published work.
+                Focused on comedic skill, delivery/timing, and character development.</p>
+                <p>Duo Interpretation: A speech event in which 2 students deliver a performance of a published play or
+                story. No props or costumes are allowed, and the focus is on emotion and the story environment.</p>
+                <p>Program Oral Interpretation: A speech event in which a student gives a 10 minute performance about a
+                central theme. Focused on integrating multiple types of literature into a single cohesive performance.</p>
+            </div>
+
+            <button class="accordion">Impromptu</button>
+            <div class="panel">
+                <p>Impromptu: A speech event in which a student gets 7 minutes to choose a topic and deliver a speech
+                on it. Topics can range from current events to celebrities. Focused on structure.</p>
+                <p>National Extemporaneous: A speech event in which a student must use prepared evidence and research
+                to spontaneously deliver a speech regarding 1 of 3 questions about national issues.</p>
+                <p>International Extemporaneous: A speech event in which a student must use prepared evidence and
+                research to spontaneously deliver a speech regarding 1 of 3 questions about international issues.</p>
+            </div>
+        </div>
+
+        <script>
+        var acc = document.getElementsByClassName("accordion");
+        var i;
+
+        for (i = 0; i < acc.length; i++) {
+          acc[i].addEventListener("click", function() {
+            this.classList.toggle("active");
+            var panel = this.nextElementSibling;
+            if (panel.style.maxHeight) {
+              panel.style.maxHeight = null;
+            } else {
+              panel.style.maxHeight = panel.scrollHeight + "px";
+            }
+          });
+        }
+        </script>
+
 
         <!-- SECTION 10: BLUE STRIP -->
         <section>
