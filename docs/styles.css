@@ -329,7 +329,7 @@ slider > *{
 slide:nth-child(1){
     left: 0%;
     animation-delay: -1s;
-    background: url(img/t1.PNG);
+    background: #fff;
     background-size: cover;
     background-position: center;
 }
@@ -337,7 +337,7 @@ slide:nth-child(1){
 slide:nth-child(2){
     left: 100%;
     animation-delay: 2s;
-    background: url(img/t2.PNG);
+    background: #fff;
     background-size: cover;
     background-position: center;
 }
@@ -345,7 +345,7 @@ slide:nth-child(2){
 slide:nth-child(3){
     left: 100%;
     animation-delay: 5s;
-    background: url(img/t3.PNG);
+    background: #fff;
     background-size: cover;
     background-position: center;
 }
@@ -353,7 +353,7 @@ slide:nth-child(3){
 slide:nth-child(4){
     left: 100%;
     animation-delay: 8s;
-    background: url(img/t4.PNG);
+    background: #fff;
     background-size: cover;
     background-position: center;
 }
@@ -361,11 +361,9 @@ slide:nth-child(4){
 slide p{
     font-family: Comfortaa;
     font-size: 70px;
+    color: #000;
     text-align: center;
     display: inline-block;
-    width: 100%;
-    margin-top: 340px;
-    color: #fff;
 }
 
 @keyframes slide{
