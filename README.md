@@ -7,7 +7,7 @@ The [official website](https://dnhs-speech-and-debate.github.io/Speech-and-Debat
 - **Git Bash & PyCharm's built-in features** (for Version Control)
 
 ### The Process
-- Site Design and Pre-Development Process - **Ashwin Babu** ([@ashwinbabu888](https://github/com/ashwinbabu888)) and **Arjun Suri** ([@arjuns330](https://github.com/arjuns330))
+- Site Design and Pre-Development Process - **Ashwin Babu** ([@ashwinbabu888](https://github.com/ashwinbabu888)) and **Arjun Suri** ([@arjuns330](https://github.com/arjuns330))
 - Web Development and Hosting - **Ashwin Babu**
 
 ### The Design
