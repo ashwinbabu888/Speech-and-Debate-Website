@@ -278,6 +278,66 @@ h3{
     height: 50vh;
 }
 
+.sec-2-5-wrapper{
+    width: 100%;
+    height: 400px;
+}
+
+h3.title-type{
+    font-size: 40px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    border-bottom: 1px solid #b1b1b1;
+    margin-top: 50px;
+}
+
+.box{
+    position: absolute;
+    margin-top: 200px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+    height: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+    display: flex;
+    transition: .5s;
+}
+
+.box:hover{
+    box-shadow: 0 15px 30px rgba(0, 0, 0, .5);
+}
+
+.box .imgBx{
+    width: 2000px;
+}
+
+.box .imgBx iframe{
+    max-width: 100%;
+}
+
+.box .content{
+    padding-left: 20px;
+}
+
+.box .content h2{
+    margin: 0;
+    padding-left: 0;
+    font-size: 32px;
+    font-family: sans-serif;
+    color: #026f4d;
+}
+
+.box .content p{
+    font-size: 20px;
+    margin: 0;
+    padding: 10px 0 0;
+    text-align: justify;
+    font-family: sans-serif;
+}
+
 slider{
     display: block;
     width: 100%;

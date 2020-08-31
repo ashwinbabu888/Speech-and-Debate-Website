@@ -281,7 +281,7 @@ h3.title-type{
 
 .panel {
   padding: 0 18px;
-  background-color: #026f4d;
+  background-color: #fff;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -290,7 +290,7 @@ h3.title-type{
 .sec-2-wrapper .panel p{
     font-size: 20px;
     font-family: sans-serif;
-    color: #fff;
+    color: #000;
     margin-top: 5px;
     margin-bottom: 15px;
 }
